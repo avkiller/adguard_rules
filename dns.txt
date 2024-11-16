@@ -1,7 +1,7 @@
 ! Title: DNS filter by fireworld
 ! Description: Filter DNS.
-! Version: 1.0.0.18
-! TimeUpdated: 2024-11-13T07:00:00+00:00
+! Version: 1.0.0.19
+! TimeUpdated: 2024-11-16T07:00:00+00:00
 ||self.events.data.microsoft.com^important
 ||google-analytics.com^$important
 ||oth.eve.mdt.qq.com^
@@ -870,3 +870,10 @@ some sources: https://github.com/jdlingyu/ad-wars
 @@||36.155.240.237/upload$important
 ||settings.ttwebview.com^
 ||analytics.immersivetranslate.com^
+||effect.snssdk.com^
+0.0.0.0 vc-brain-v6.ndcpp.com
+||zlink.ugsdk.cn^
+||ichannel.snssdk.com^
+0.0.0.0 geo-drcn.platform.dbankcloud.cn
+0.0.0.0 prod.rewardsplatform.microsoft.com
+0.0.0.0 graph.microsoft.com
