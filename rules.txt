@@ -1,8 +1,11 @@
 [去广告规则列表]
 ! Title: block by fireworld
-! Version: 1.0.1.10
-! TimeUpdated: 2024-11-04T07:00:00+00:00
+! Version: 1.0.1.16
+! TimeUpdated: 2024-11-21T00:00:00+00:00
 ! Expires: 10 days (update frequency)
+! Last modified: 2024-11-21T08:02:19.866Z
+! Homepage: https://github.com/avkiller/adguard_rules
+@@||isaas5-normal-lf.ecombdapi.com^$important
 0.0.0.0 self.events.data.microsoft.com
 ||self.events.data.microsoft.com^important
 ||auni.telecome.cn^
@@ -95,13 +98,11 @@
 ||feedsads.cn^
 ||v.adx.hubcloud.com.cn^
 ||events.op.hicloud.com^$app=com.huawei.search
-||service-cn.hwccpc.com^$app=com.huawei.search
 ||hisearch-drcn.dt.dbankcloud.com^$app=com.huawei.search
 ||metrics1-drcn.dt.dbankcloud.cn^$app=com.huawei.search
 ||contentcenter-drcn.dbankcdn.cn^$app=com.huawei.search
 ||hisearch-static-drcn.dbankcdn.com^$app=com.huawei.search
 ||pushservice-drcn.dt.dbankcloud.cn^
-||hwccpc.com^
 ||dp3.qq.com^$app=com.qq.qcloud
 ||us.l.qq.com^$app=com.qq.qcloud
 ||p.l.qq.com^$app=com.qq.qcloud
@@ -290,7 +291,6 @@
 ||rtlog3-applog-lf.fqnovel.com^$important,app=com.dragon.read
 @@||frontier100-toutiao-lf.fqnovel.com^$app=com.dragon.read
 ||mon3-misc-lf.fqnovel.com^$app=com.dragon.read
-||ecombdapi.com^$app=com.dragon.read
 @@||api5-normal-sinfonlinec.fqnovel.com^$app=com.dragon.read
 ||ecom3-normal-lf.ecombdapi.com^$important,app=com.dragon.read
 ||ads3-normal-lf.zijieapi.com^$important,app=com.dragon.read
@@ -306,7 +306,6 @@
 ||mon3-misc-lf.fqnovel.com^$important,app=com.dragon.read
 @@||bsync3-normal-lf.zijieapi.com^
 ||ecombdimg.com^$important,app=com.dragon.read
-||service-cn.hwccpc.com^$important,app=com.huawei.appmarket
 ||h5hosting-drcn.dbankcdn.cn^$important,app=com.huawei.android.totemweather
 ||p9-aio.ecombdimg.com^$important,app=com.dragon.read
 ||praisewindow-sinfonlinec.ugsdk.cn^$important,app=com.dragon.read
@@ -658,8 +657,6 @@ some sources: https://github.com/jdlingyu/ad-wars
 ||ecom3-normal-lf.ecombdapi.com^$important
 ||p3-ad-sign.byteimg.com^$important
 ||ads3-normal-lf.zijieapi.com^$important
-||frontier100-toutiao-lf.fqnovel.com^$important
-||103.37.152.97/fetch
 ||49.4.32.236^$app=com.huawei.android.totemweather
 ||message.feidee.com^$app=com.mymoney
 ||zxid-api.mobileservice.cn^
