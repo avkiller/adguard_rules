@@ -1,8 +1,8 @@
 ! Title: DNS filter by fireworld
 ! Description: Filter DNS.
-! Version: 1.0.0.40
-! TimeUpdated: 2024-11-24T00:01:00+00:00
-! Last modified: 2024-11-24T00:02:19.866Z
+! Version: 1.0.0.49
+! TimeUpdated: 2024-12-11T00:08:00+00:00
+! Last modified: 2024-12-11T00:08:19.866Z
 ! Homepage: https://github.com/avkiller/adguard_rules
 
 !# 白名单
@@ -124,6 +124,9 @@
 ||dsp-x.jd.com^
 ||jddebug.com^
 
+！#Apple
+||iadsdk.apple.com^
+
 !# edge浏览器
 ||self.events.data.microsoft.com^
 ||prod.rewardsplatform.microsoft.com^
@@ -138,6 +141,8 @@
 ||settings.data.microsoft.com^
 ||vortex.data.microsoft.com^
 ||copilot.microsoft.com^
+||mobile.events.data.microsoft.com^$important
+||browser.events.data.microsoft.com^$important
 
 !# anti-Fraud Center Tracking
 
@@ -255,6 +260,11 @@
 ||tmfmazuhttp-wangka.m.qq.com^
 ||tmfmazu-wangka.m.qq.com^
 
+!# Ads - apkpure
+||myadsget.com^
+||unityads.unitychina.cn^
+||myadssupport.com^
+
 ! # Ads - Google
 ||googletagmanager.com^
 ||media.mobpartner.mobi^
@@ -301,6 +311,7 @@
 !# alibaba
 ||h-adashx.ut.taobao.com^
 ||adashx.m.taobao.com^
+||loggw-ex.alipay.com^
 
 !# huawei os
 ||grs.platform.dbankcloud.ru^
@@ -437,6 +448,7 @@
 ||*-inapps.appsflyersdk.com^
 ||fp-it*.fengkongcloud.com^
 ||*-launches.appsflyersdk.com^
+||collect-v*.51.la^
 
 ! Block PCDN
 ||*.mcdn.bilivideo.cn^
@@ -461,7 +473,6 @@
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
 ||apd-pcdnvodstat.teg.tencent-cloud.net^
 ||apd-vodp2plogin.teg.tencent-cloud.net^
-
 
 !# Block Built-in DNS
 ||doh.dns.apple.com^
@@ -540,9 +551,13 @@
 ||dotserver.douyucdn.cn^
 ||*dns*.adobe.com
 
+！#IP
+||pv.sohu.com^
+||ip.chinaz.com^
+
 !# other
 ||souajki.net^
-||adx-os.bridgeoos.com^
+||bridgeoos.com^
 ||mpush-api.aliyun.com^
 ||api.kingdata.ksyun.com^
 ||bzib.nelreports.net^
@@ -668,7 +683,6 @@
 ||ipv6.shuzilm.cn^
 ||bi-sensors.duxiaoman.com^
 ||app.duxiaoman.com^
-||adash.zjzwfw.gov.cn^
 ||herby.top^
 ||authpass.app^
 ||a.fxltsbl.com^
@@ -726,3 +740,33 @@
 ||l.gm.mob.com^
 ||mobads-pre-config.cdn.bcebos.com^
 ||report.bjzghd.com^
+||unityads.unity.cn^
+||winudf.com^
+||mds.yandex.net^
+||sve.cc^
+||onezapp.com^
+||rqmob.com^
+||myappsget.com^
+||iemiq.com^
+||api.pubnative.net^
+||haobird.site^
+||toponadss.com^
+||appnext.com^
+||vungle.com^
+||report.apkpure.net^
+||tr.jianshu.com^
+||twlcyc.cn^
+||ad-ggtg-api.37.com.cn^$important
+||api.bridgeoos.com^
+||app.adjust.net.in^$important
+||xingcdn.com^
+||tyccdn888.com^
+||bplslb.com^
+||fn03.vip^
+||fnvip100.com^
+||ads.iconntech.com.w.kunlunca.com^$important
+||ads.iconntech.com^$important
+||traffic.iconntech.com^$important
+||jihuoniao.sdk.bianxian.com^$important
+||xxl-log.rantu.com^$important
+||data.ab.qq.com^$important

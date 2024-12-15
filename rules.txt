@@ -1,12 +1,39 @@
 [去广告规则列表]
 ! Title: block by fireworld
-! Version: 1.0.1.16
-! TimeUpdated: 2024-11-21T00:00:00+00:00
+! Version: 1.0.1.18
+! TimeUpdated: 2024-12-11T00:01:00+00:00
 ! Expires: 10 days (update frequency)
-! Last modified: 2024-11-21T08:02:19.866Z
+! Last modified: 2024-12-11T00:01:00.866Z
 ! Homepage: https://github.com/avkiller/adguard_rules
-@@||isaas5-normal-lf.ecombdapi.com^$important
-0.0.0.0 self.events.data.microsoft.com
+!# 白名单
+@@||service-cn.hwccpc.com^important
+@@||oauth-login-drcn.platform.dbankcloud.com^$important
+
+@@||isaas5-normal-lf.ecombdapi.com$important
+@@||isaas3-normal-lf.ecombdapi.com^$important
+@@||api5-normal-sinfonlinec.fqnovel.com^$important
+@@||ec5-core-lf.ecombdapi.com^$important
+@@||reading.snssdk.com^$important
+@@||fqnovelpic.com^$important
+@@||fqnovelvod.com^$important
+@@||fqnovelstatic.com^$important
+@@||api3-normal-sinfonlinec.fqnovel.com^$important
+@@||mon11-misc-lf.fqnovel.com^$important
+@@||frontier100-toutiao-lf.fqnovel.com^$important
+@@||mon3-misc-lf.fqnovel.com^$important
+@@||bsync3-normal-lf.zijieapi.com^$important
+@@||tnc0-alisc1.zijieapi.com^$important
+@@||saveu5-normal-lf.zijieapi.com^$important
+@@||mssdk3-normal-lf.zijieapi.com^$important
+@@||tnc3-aliec2.zijieapi.com^$important
+@@||tnc3-bjlgy.zijieapi.com^$important
+@@||ec3-core-lf.ecombdapi.com^$important
+
+@@||aeventlog.beacon.qq.com^$important
+@@||thirdqq.qlogo.cn^$important
+@@||cfg.flurry.com^$important
+@@||data.flurry.com^$important
+@@||service-cn.hwccpc.com^$important
 ||self.events.data.microsoft.com^important
 ||auni.telecome.cn^
 ||config.edge.skype.com^
@@ -17,8 +44,6 @@
 ||adashx.ut.amap.com^
 ||browser.events.data.msn.cn^
 ||google-analytics.com^$important
-@@||fuxudong.com^
-@@||fuxudong.cn^
 ||oth.eve.mdt.qq.com^
 ||rmonitor.qq.com^
 ||security.browser.miui.com^
@@ -673,3 +698,4 @@ some sources: https://github.com/jdlingyu/ad-wars
 @@||36.155.240.237/upload$important
 ||settings.ttwebview.com^
 ||analytics.immersivetranslate.com^
+||unityads.unitychina.cn^
