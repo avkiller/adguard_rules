@@ -1,7 +1,7 @@
 ! Title: DNS filter by fireworld
 ! Description: Filter DNS.
-! Version: 1.0.0.60
-! Last modified: 2025-02-28T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
+! Version: 1.0.0.61
+! Last modified: 2025-11-29T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
 ! Expires: 10 days
 
 !# 白名单
