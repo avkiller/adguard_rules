@@ -203,7 +203,6 @@
 ||tbsrecovery.imtt.qq.com^
 ||asia-northeast3-kmplex-905ad.cloudfunctions.net^$app=com.kmplayer
 ||cdn.kmplayer.com/KMP/static/
-||event.96225.com^$app=com.smk
 ||smartop-sdkapi-ipv6.jiguang.cn^$app=com.smk
 ||ads.privacy.qq.com^
 ||183.60.230.202/g$app=com.qq.qcloud
