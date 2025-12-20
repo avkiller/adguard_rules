@@ -488,7 +488,6 @@
 ||dns.qq.com^
 ||httpdns.pro^
 ||httpdns.kg.qq.com^
-||dns.alidns.com^
 ||httpdns.alicdn.com^
 ||amdc.alipay.com^
 ||dns.weixin.qq.com*^
@@ -1129,3 +1128,4 @@
 ||quetta.net^$important
 ||api.rrzuji.com^$important
 ||ad-serving.bangdao-tech.com^$important
+||nelreports.net
