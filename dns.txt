@@ -1153,3 +1153,4 @@
 ||ext.scriptcat.org^$important
 ||skadsdkless.appsflyersdk.com^$important
 ||analytics.edifier.com^$important
+||nelreports.net^$important
