@@ -1,7 +1,7 @@
 ! Title: DNS filter by fireworld
 ! Description: Filter DNS.
 ! Version: 1.0.0.61
-! Last modified: 2025-11-29T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
+! Last modified: 2026-01-10T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
 ! Expires: 10 days
 
 !# 白名单
@@ -114,8 +114,6 @@
 ||jddebug.com^
 ||orbit.jd.com^
 ||kepler.jd.com^
-||knicks.jd.com^
-||mapi.m.jd.com^
 
 ！#Apple
 ||iadsdk.apple.com^
@@ -254,11 +252,8 @@
 ||tbsrecovery.imtt.qq.com^
 ||tmfsdk.m.qq.com^
 ||wns.qq.com^
-||oth.str.mdt.qq.com^
 ||android.rqd.qq.com^
 ||content.rconfig.qq.com^
-||offline.qq.com^
-||imgcache.qq.com^
 ||tmfmazuhttp-wangka.m.qq.com^
 ||tmfmazu-wangka.m.qq.com^
 
@@ -862,7 +857,6 @@
 ||analyzev.oss-cn-beijing.aliyuncs.com^$important
 ||p*-ad-sign.byteimg.com^$important
 ||p*-webcast-sign.douyinpic.com^$important
-||p*-reading-sign.fqnovelpic.com^$important
 ||ecombdimg.com^$important
 ||tnc3-bjlgy.zijieapi.com^$important
 ||edgeservices.bing.com^$important
@@ -879,7 +873,6 @@
 ||lf-webcast-gr-sourcecdn.bytegecko.com^$important
 ||vc-brain.ndcpp.com^$important
 ||vc-mirror.ndcpp.com^$important
-||p9-reading-sign.fqnovelpic.com^$important
 ||webcast5-open-lf.douyin.com^$important
 ||f-ztuni.tec73.com^$important
 ||c-ztuni.tec73.com^$important
@@ -993,7 +986,6 @@
 ||lf3-reading.fqnovelpic.com^$important
 ||tbsfile.imtt.qq.com^$important
 ||ads.cctv.com^$important
-||ecom5-normal-lf.ecombdapi.com^$important
 ||ec3-core-lf.ecombdapi.com^$important
 ||pull-flv-l1.ixigua.com^$important
 ||pushdevice.quark.cn^$important
@@ -1010,7 +1002,6 @@
 ||countly.mail.163.com^$important
 ||darkreader.org^$important
 ||analytics.95516.com^$important
-||ec5-core-lf.ecombdapi.com^$important
 ||pull-rtmp-l1.ixigua.com^$important
 ||imlong-sa-p03-drcn.platform.dbankcloud.cn^$important
 ||sns-drcn.platform.dbankcloud.cn^$important
@@ -1076,7 +1067,7 @@
 ||zhisanzhao.com^$important
 ||yundps.com^$important
 ||tanwuya.com^$important
-||*.tt.x.bsgslb.cn^$important
+||*tt.x.bsgslb.cn^$important
 ||virusinfo-sec.heytapmobi.com^$important
 ||datasec-kmsex-cn.heytapmobi.com^$important
 ||datatracker.ietf.org^$important
@@ -1129,3 +1120,36 @@
 ||quetta.net^$important
 ||api.rrzuji.com^$important
 ||ad-serving.bangdao-tech.com^$important
+# add 2026年1月10日
+||events.data.microsoft.com^$important
+||p*-reading-sign.fqnovelpic.com^$important
+||p9-reading-sign.fqnovelpic.com^$important
+||doh.pub^$important$client=~192.168.3.106
+||ecom5-normal-lf.ecombdapi.com^$important
+||ec5-core-lf.ecombdapi.com^$important
+||api.datanexus.qq.com^$important
+||api.revenuecat.com^$important
+||receiver-ta.kampfiregames.cn^$important
+||api.flysheeep.com^$important
+||storefinance4.nearme.com.cn^$important
+||pclog.thepaper.cn^$important
+||tongji.0571ai.cn^$important
+||sigmob.cn^$important
+||httpdns.jdpay.com^$important
+||ugapk.com^$important
+||vc-mirror-v6.ndcpp.com^$important
+||mdp-usertrace-cn.heytapdownload.com^$important
+||mum.hzchengdun.net^$important
+||v6-api-share.mob.com^$important
+||1112dns.com^$important
+||initww.com$importan
+||app.pingtools.org^$important
+||static-dsp.8ziben.com^$important
+||api-dsp.8ziben.com^$important
+||ad.data.lianjia.com^$important
+||life-service-open.zijieapi.com^$important
+||thanos.zijieapi.com^$important
+||fqnovel.ugurl.cn^$important
+||ext.scriptcat.org^$important
+||skadsdkless.appsflyersdk.com^$important
+||analytics.edifier.com^$important

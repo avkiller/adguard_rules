@@ -67,3 +67,14 @@ tnc3-aliec2.zijieapi.com
 tnc3-bjlgy.zijieapi.com
 aeventlog.beacon.qq.com
 thirdqq.qlogo.cn
+dnkeeper.platform.dbankcloud.cn^$client='192.168.3.105'
+www.tampermonkey.net^$client='192.168.3.105'
+otheve.beacon.qq.com^$client='192.168.3.32'
+aegis.qq.com^$client='192.168.3.32'
+bugly.qq.com^$client='192.168.3.112'
+*-reading-video.fqnovelvod.com
+geover.prod.do.dsp.mp.microsoft.com
+tas02.sls.update.microsoft.com
+knicks.jd.com
+oth.str.mdt.qq.com
+imgcache.qq.com
