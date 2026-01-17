@@ -1,7 +1,7 @@
 ! Title: DNS filter by fireworld
 ! Description: Filter DNS.
-! Version: 1.0.0.61
-! Last modified: 2026-01-10T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
+! Version: 1.0.0.62
+! Last modified: 2026-01-17T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
 ! Expires: 10 days
 
 !# 白名单
@@ -76,6 +76,15 @@
 ||api-access.pangolin-sdk-toutiao1.com^
 ||log-api.pangolin-sdk-toutiao-b.com^
 ||api-access.pangolin-sdk-toutiao.com^
+||log0-applog-lq.fqnovel.com^$important
+||lf3-webcastcdn-tos-sign.douyinstatic.com^$important
+||*-v-ncdnfq.fqnovelvod.com^$important
+||*-reading-video.fqnovelvod.com^$important
+||n98-v-ncdnfq.fqnovelvod.com^$important
+||v9-reading-video.fqnovelvod.com^$important
+||v26-reading-video.fqnovelvod.com^$important
+||v3-reading-video.fqnovelvod.com^$important
+
 
 !# QQ音乐
 ||report.tencentmusic.com^
@@ -114,6 +123,10 @@
 ||jddebug.com^
 ||orbit.jd.com^
 ||kepler.jd.com^
+||aisec-tee.s3-accelerate.cn-north-1.jdcloud-oss.com^$important
+||device-security-url.jd.com^$important
+||imgcps.jd.com^$important
+||device-sec.s3.cn-north-1.jdcloud-oss.com^$important
 
 ！#Apple
 ||iadsdk.apple.com^
@@ -409,6 +422,9 @@
 ||ads.heytapmobi.com^$important
 ||push-ads-cn.heytapmobi.com^$important
 ||httpdns.push.heytapmobi.com^$important
+||app-sec-cn.heytapmobi.com^$important
+||search.heytapmobi.com^$important
+
 ! # Ads - Coolapk
 
 ||ctobsnssdk.com^
@@ -1023,7 +1039,6 @@
 ||rcpc-sdk-access-v6.m.qq.com^$important
 ||route-stats.d.meituan.net^$important
 ||maplocatesdksnapshot.d.meituan.net^$important
-||*-reading-video.fqnovelvod.com^$important
 ||webcast*-open-lq.douyin.com^$important
 ||ecom*-normal.ecombdapi.com^$important
 ||www.u8sdk.com^$important
@@ -1121,7 +1136,6 @@
 ||api.rrzuji.com^$important
 ||ad-serving.bangdao-tech.com^$important
 # add 2026年1月10日
-||events.data.microsoft.com^$important
 ||p*-reading-sign.fqnovelpic.com^$important
 ||p9-reading-sign.fqnovelpic.com^$important
 ||doh.pub^$important$client=~192.168.3.106
@@ -1154,3 +1168,10 @@
 ||skadsdkless.appsflyersdk.com^$important
 ||analytics.edifier.com^$important
 ||nelreports.net^$important
+||0kkkkkt.com^$important
+||qtaeixd.com^$important
+||ydycdn.com^$important
+||ldhy.click^$important
+||bjmxy.net^$important
+||sjxydc.com^$important
+||logsdata.cxkfwn.com^$important
