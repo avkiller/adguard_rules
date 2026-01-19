@@ -1,7 +1,7 @@
 ! Title: DNS filter by fireworld
 ! Description: Filter DNS.
-! Version: 1.0.0.62
-! Last modified: 2026-01-17T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
+! Version: 1.0.0.63
+! Last modified: 2026-01-18T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
 ! Expires: 10 days
 
 !# 白名单
@@ -37,7 +37,6 @@
 ||dig.zjurl.cn^
 ||rtlog*-applog-hl.fqnovel.com^
 ||log*-applog-hl.fqnovel.com^
-||api5-normal-sinfonlineb.fqnovel.com^
 ||log*-applog-lf.fqnovel.com^
 ||rtlog*-applog-lf.fqnovel.com^
 ||hsinfonlinec.fqnovel.com^
@@ -1174,4 +1173,5 @@
 ||ldhy.click^$important
 ||bjmxy.net^$important
 ||sjxydc.com^$important
+
 ||logsdata.cxkfwn.com^$important
