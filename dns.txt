@@ -1,7 +1,7 @@
 ! Title: DNS filter by fireworld
 ! Description: Filter DNS.
-! Version: 1.0.0.64
-! Last modified: 2026-01-18T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
+! Version: 1.0.0.65
+! Last modified: 2026-0-001T00:00:00.866Z ！Homepage: https://github.com/avkiller/adguard_rules
 ! Expires: 10 days
 
 !# 白名单
@@ -1174,3 +1174,37 @@
 ||bjmxy.net^$important
 ||sjxydc.com^$important
 ||logsdata.cxkfwn.com^$important
+# add 2026年04月01日
+||v9-reading-video.fqnovelvod.com^$important
+||marketing.ths123.com^$important
+||ai-search.heytapimage.com^$important
+@@||api5-normal-sinfonlineb.fqnovel.com^$important
+||b2f-cdn.beefungames.com^$important
+||zephyr.quhaotui.com^$important
+||ad-track.fliggy.com^$important
+||gamefile.heytap.com^$important
+||dhfs.heytapimage.com^$important
+||cpc.heytapmobi.com^$important
+||bs.sc.heytapmobi.com^$important
+||send2boox.com^$important
+||data.boox.com^$important
+||sb.scorecardresearch.com^$important
+||bsync3-normal-lf.zijieapi.com^$important
+||gecko5-hj.zijieapi.com^$important
+||imgcps3.jd.com^$important
+||imgcps2.jd.com^$important
+||imgcps1.jd.com^$important
+||datacollabo-drcn.platform.dbankcloud.cn^$important
+||sdk.tianzongyouxi.com^$important
+||www.chengzijianzhan.com^$important
+||clue.oceanengine.com^$important
+||wuchucloud.net^$important
+||res.wqop2018.com^$important
+||market.qunar.com^$important
+||virusinfo-sms-cn.heytapmobi.com^$important
+||android-safebrowsing.google.com^$important
+||abtest3-misc.zijieapi.com^$important
+||ad.ddxq.mobi^$important
+||hdjad.com^$important
+||ads-api.x.com^$important
+
